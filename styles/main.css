@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300); */
 
 * {
   box-sizing: border-box;
@@ -18,12 +19,15 @@ body {
 }
 
 a {
-  text-decoration: none;
+  /* text-decoration: none; */
+  text-decoration-style: dotted;
+  /* text-decoration: underline dotted; */
   color: black;
 }
 
 a:hover {
   color: white;
+  /* text-decoration: underline #fff dotted; */
 }
 
 body a:hover:before {
@@ -51,7 +55,7 @@ body a:hover:before {
 
 .resume {
   background-color: #ffe000;
-  padding: 0 4px 0 2px;
+  padding: 5px;
 }
 
 .resume:hover:before {
@@ -60,7 +64,7 @@ body a:hover:before {
 
 .github {
   background-color: #778a9e;
-  padding: 0 4px 0 2px;
+  padding: 5px;
 }
 
 .github:hover:before {
@@ -69,7 +73,7 @@ body a:hover:before {
 
 .codepen {
   background-color: #15dbd1;
-  padding: 0 4px 0 2px;
+  padding: 5px;
 }
 
 .codepen:hover:before {
@@ -78,7 +82,7 @@ body a:hover:before {
 
 .email {
   background-color: #d4107c;
-  padding: 0 4px 0 2px;
+  padding: 5px;
 }
 
 .email:hover:before {
