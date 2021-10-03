@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #6813d8;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+body a:hover:before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  z-index: -1;
+}
+
+.logo {
+  width: 175px;
+  height: 175px;
+  background-color: lightgray;
+  padding-left: 5px;
+  font-size: 17px;
+}
+
+.main-text {
+  font-size: 23px;
+  margin-top: 20px;
+}
+
+.resume {
+  background-color: #ffe000;
+  padding: 0 4px 0 2px;
+}
+
+.resume:hover:before {
+  background-color: #ffe000;
+}
+
+.github {
+  background-color: #778a9e;
+  padding: 0 4px 0 2px;
+}
+
+.github:hover:before {
+  background-color: #778a9e;
+}
+
+.codepen {
+  background-color: #15dbd1;
+  padding: 0 4px 0 2px;
+}
+
+.codepen:hover:before {
+  background-color: #15dbd1;
+}
+
+.email {
+  background-color: #d4107c;
+  padding: 0 4px 0 2px;
+}
+
+.email:hover:before {
+  background-color: #d4107c;
+}
